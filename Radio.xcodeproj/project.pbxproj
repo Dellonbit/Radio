@@ -12,6 +12,16 @@
 		C93BCCB61D2C4F3A00A96BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93BCCB41D2C4F3A00A96BCF /* Main.storyboard */; };
 		C93BCCB81D2C4F3A00A96BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93BCCB71D2C4F3A00A96BCF /* Assets.xcassets */; };
 		C93BCCBB1D2C4F3A00A96BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93BCCB91D2C4F3A00A96BCF /* LaunchScreen.storyboard */; };
+		C95B59CE1D5E6E5E0072DEA3 /* duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95B59CD1D5E6E5E0072DEA3 /* duck.jpg */; };
+		C95B59D01D5E7EC30072DEA3 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B59CF1D5E7EC30072DEA3 /* PlayingViewController.swift */; };
+		C95B59D21D5E9A590072DEA3 /* High Volume-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59D11D5E9A590072DEA3 /* High Volume-50.png */; };
+		C95B59D41D5E9B150072DEA3 /* High Volume Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59D31D5E9B150072DEA3 /* High Volume Filled-50.png */; };
+		C95B59D61D5E9E860072DEA3 /* Stop-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59D51D5E9E860072DEA3 /* Stop-50.png */; };
+		C95B59D81D5E9E900072DEA3 /* Play-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59D71D5E9E900072DEA3 /* Play-50-2.png */; };
+		C95B59DA1D5ED6F40072DEA3 /* Low Volume Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59D91D5ED6F40072DEA3 /* Low Volume Filled-100.png */; };
+		C95B59DC1D5ED6FF0072DEA3 /* High Volume Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DB1D5ED6FF0072DEA3 /* High Volume Filled-100.png */; };
+		C95B59DE1D5ED7BB0072DEA3 /* Play-104.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */; };
+		C95B59E01D5ED7C40072DEA3 /* Stop-104.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		C93BCCB71D2C4F3A00A96BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93BCCBA1D2C4F3A00A96BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93BCCBC1D2C4F3A00A96BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95B59CD1D5E6E5E0072DEA3 /* duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duck.jpg; sourceTree = "<group>"; };
+		C95B59CF1D5E7EC30072DEA3 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
+		C95B59D11D5E9A590072DEA3 /* High Volume-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Volume-50.png"; sourceTree = "<group>"; };
+		C95B59D31D5E9B150072DEA3 /* High Volume Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Volume Filled-50.png"; sourceTree = "<group>"; };
+		C95B59D51D5E9E860072DEA3 /* Stop-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop-50.png"; sourceTree = "<group>"; };
+		C95B59D71D5E9E900072DEA3 /* Play-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-50-2.png"; sourceTree = "<group>"; };
+		C95B59D91D5ED6F40072DEA3 /* Low Volume Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Low Volume Filled-100.png"; sourceTree = "<group>"; };
+		C95B59DB1D5ED6FF0072DEA3 /* High Volume Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Volume Filled-100.png"; sourceTree = "<group>"; };
+		C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-104.png"; sourceTree = "<group>"; };
+		C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop-104.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +75,17 @@
 			isa = PBXGroup;
 			children = (
 				C93BCCB01D2C4F3A00A96BCF /* AppDelegate.swift */,
+				C95B59CD1D5E6E5E0072DEA3 /* duck.jpg */,
+				C95B59CF1D5E7EC30072DEA3 /* PlayingViewController.swift */,
 				C93BCCB21D2C4F3A00A96BCF /* ViewController.swift */,
+				C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */,
+				C95B59D51D5E9E860072DEA3 /* Stop-50.png */,
+				C95B59D71D5E9E900072DEA3 /* Play-50-2.png */,
+				C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */,
+				C95B59D91D5ED6F40072DEA3 /* Low Volume Filled-100.png */,
+				C95B59D31D5E9B150072DEA3 /* High Volume Filled-50.png */,
+				C95B59DB1D5ED6FF0072DEA3 /* High Volume Filled-100.png */,
+				C95B59D11D5E9A590072DEA3 /* High Volume-50.png */,
 				C93BCCB41D2C4F3A00A96BCF /* Main.storyboard */,
 				C93BCCB71D2C4F3A00A96BCF /* Assets.xcassets */,
 				C93BCCB91D2C4F3A00A96BCF /* LaunchScreen.storyboard */,
@@ -124,8 +154,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93BCCBB1D2C4F3A00A96BCF /* LaunchScreen.storyboard in Resources */,
+				C95B59DE1D5ED7BB0072DEA3 /* Play-104.png in Resources */,
+				C95B59DA1D5ED6F40072DEA3 /* Low Volume Filled-100.png in Resources */,
 				C93BCCB81D2C4F3A00A96BCF /* Assets.xcassets in Resources */,
+				C95B59CE1D5E6E5E0072DEA3 /* duck.jpg in Resources */,
+				C95B59D61D5E9E860072DEA3 /* Stop-50.png in Resources */,
+				C95B59D21D5E9A590072DEA3 /* High Volume-50.png in Resources */,
+				C95B59D41D5E9B150072DEA3 /* High Volume Filled-50.png in Resources */,
+				C95B59DC1D5ED6FF0072DEA3 /* High Volume Filled-100.png in Resources */,
 				C93BCCB61D2C4F3A00A96BCF /* Main.storyboard in Resources */,
+				C95B59D81D5E9E900072DEA3 /* Play-50-2.png in Resources */,
+				C95B59E01D5ED7C40072DEA3 /* Stop-104.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95B59D01D5E7EC30072DEA3 /* PlayingViewController.swift in Sources */,
 				C93BCCB31D2C4F3A00A96BCF /* ViewController.swift in Sources */,
 				C93BCCB11D2C4F3A00A96BCF /* AppDelegate.swift in Sources */,
 			);
@@ -295,6 +335,7 @@
 				C93BCCC11D2C4F3A00A96BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
