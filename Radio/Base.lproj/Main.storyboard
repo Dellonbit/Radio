@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--nope-->
+        <!--stationss-->
         <scene sceneID="BdH-jh-eaC">
             <objects>
-                <tableViewController id="LGU-qg-L22" sceneMemberID="viewController">
+                <tableViewController id="LGU-qg-L22" customClass="StationsTableViewController" customModule="Radio" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="KM2-we-EWd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,11 +28,11 @@
                             <outlet property="delegate" destination="LGU-qg-L22" id="Eyl-jU-UL0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="nope" id="Q8h-X1-3rL"/>
+                    <tabBarItem key="tabBarItem" title="stationss" id="Q8h-X1-3rL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uMp-G0-gud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464" y="1144"/>
+            <point key="canvasLocation" x="1564" y="1131"/>
         </scene>
         <!--Playing-->
         <scene sceneID="VCy-QI-MtX">
@@ -118,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbk-sR-jNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464" y="-285"/>
+            <point key="canvasLocation" x="1587" y="-370"/>
         </scene>
         <!--Favourites-->
         <scene sceneID="tne-QT-ifu">

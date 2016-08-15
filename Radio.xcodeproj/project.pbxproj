@@ -22,6 +22,7 @@
 		C95B59DC1D5ED6FF0072DEA3 /* High Volume Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DB1D5ED6FF0072DEA3 /* High Volume Filled-100.png */; };
 		C95B59DE1D5ED7BB0072DEA3 /* Play-104.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */; };
 		C95B59E01D5ED7C40072DEA3 /* Stop-104.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */; };
+		C9631FEB1D61E67A00B578C8 /* StationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9631FEA1D61E67A00B578C8 /* StationsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C95B59DB1D5ED6FF0072DEA3 /* High Volume Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Volume Filled-100.png"; sourceTree = "<group>"; };
 		C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-104.png"; sourceTree = "<group>"; };
 		C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop-104.png"; sourceTree = "<group>"; };
+		C9631FEA1D61E67A00B578C8 /* StationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				C95B59DB1D5ED6FF0072DEA3 /* High Volume Filled-100.png */,
 				C95B59D11D5E9A590072DEA3 /* High Volume-50.png */,
 				C93BCCB41D2C4F3A00A96BCF /* Main.storyboard */,
+				C9631FEA1D61E67A00B578C8 /* StationsTableViewController.swift */,
 				C93BCCB71D2C4F3A00A96BCF /* Assets.xcassets */,
 				C93BCCB91D2C4F3A00A96BCF /* LaunchScreen.storyboard */,
 				C93BCCBC1D2C4F3A00A96BCF /* Info.plist */,
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9631FEB1D61E67A00B578C8 /* StationsTableViewController.swift in Sources */,
 				C95B59D01D5E7EC30072DEA3 /* PlayingViewController.swift in Sources */,
 				C93BCCB31D2C4F3A00A96BCF /* ViewController.swift in Sources */,
 				C93BCCB11D2C4F3A00A96BCF /* AppDelegate.swift in Sources */,
