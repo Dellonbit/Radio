@@ -120,24 +120,34 @@
             </objects>
             <point key="canvasLocation" x="1587" y="-370"/>
         </scene>
-        <!--Favourites-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Favourite-->
+        <scene sceneID="yOF-7a-5Wn">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Radio" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="SfP-8C-slW" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="j9R-RS-ND6">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Favourites" id="edb-cg-jDc"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XBE-jv-9L4">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XBE-jv-9L4" id="xY9-7R-sz0">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SfP-8C-slW" id="D5F-QD-fQl"/>
+                            <outlet property="delegate" destination="SfP-8C-slW" id="9nr-zA-Vbz"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Favourite" id="h6P-kz-8Fh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IcQ-Ue-co7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464" y="410"/>
+            <point key="canvasLocation" x="1587" y="294"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="l25-rt-cgb">
@@ -168,11 +178,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="J7X-2r-IdM"/>
                         <segue destination="LGU-qg-L22" kind="relationship" relationship="viewControllers" id="nbe-6x-0EX"/>
                         <segue destination="L7F-gF-i2T" kind="relationship" relationship="viewControllers" id="dFe-QJ-5Pi"/>
                         <segue destination="neJ-de-xut" kind="relationship" relationship="viewControllers" id="mCI-eB-5ME"/>
                         <segue destination="bgU-h9-IQv" kind="relationship" relationship="viewControllers" id="16c-wD-3yT"/>
+                        <segue destination="SfP-8C-slW" kind="relationship" relationship="viewControllers" id="hhf-Ts-yx6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afe-sS-HuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
