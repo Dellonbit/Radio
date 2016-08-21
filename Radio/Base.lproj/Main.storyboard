@@ -101,25 +101,6 @@
             </objects>
             <point key="canvasLocation" x="1464" y="-1252"/>
         </scene>
-        <!--Stations-->
-        <scene sceneID="ai2-cW-xfA">
-            <objects>
-                <viewController id="bgU-h9-IQv" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ldb-OG-42n"/>
-                        <viewControllerLayoutGuide type="bottom" id="2Br-1L-xLw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Cuf-SQ-PO1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Stations" id="reT-kg-2iQ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sbk-sR-jNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1599" y="-370"/>
-        </scene>
         <!--Favourite-->
         <scene sceneID="yOF-7a-5Wn">
             <objects>
@@ -181,7 +162,6 @@
                         <segue destination="LGU-qg-L22" kind="relationship" relationship="viewControllers" id="nbe-6x-0EX"/>
                         <segue destination="L7F-gF-i2T" kind="relationship" relationship="viewControllers" id="dFe-QJ-5Pi"/>
                         <segue destination="neJ-de-xut" kind="relationship" relationship="viewControllers" id="mCI-eB-5ME"/>
-                        <segue destination="bgU-h9-IQv" kind="relationship" relationship="viewControllers" id="16c-wD-3yT"/>
                         <segue destination="SfP-8C-slW" kind="relationship" relationship="viewControllers" id="hhf-Ts-yx6"/>
                     </connections>
                 </tabBarController>

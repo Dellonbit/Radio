@@ -23,6 +23,7 @@
 		C95B59DE1D5ED7BB0072DEA3 /* Play-104.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */; };
 		C95B59E01D5ED7C40072DEA3 /* Stop-104.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */; };
 		C9631FEB1D61E67A00B578C8 /* StationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9631FEA1D61E67A00B578C8 /* StationsTableViewController.swift */; };
+		C9C9D97A1D66D45200561532 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9791D66D45200561532 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		C95B59DD1D5ED7BB0072DEA3 /* Play-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-104.png"; sourceTree = "<group>"; };
 		C95B59DF1D5ED7C40072DEA3 /* Stop-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop-104.png"; sourceTree = "<group>"; };
 		C9631FEA1D61E67A00B578C8 /* StationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsTableViewController.swift; sourceTree = "<group>"; };
+		C9C9D9791D66D45200561532 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		C93BCCA41D2C4F3700A96BCF = {
 			isa = PBXGroup;
 			children = (
+				C9C9D9791D66D45200561532 /* SettingsViewController.swift */,
 				C93BCCAF1D2C4F3900A96BCF /* Radio */,
 				C93BCCAE1D2C4F3900A96BCF /* Products */,
 			);
@@ -181,6 +184,7 @@
 				C9631FEB1D61E67A00B578C8 /* StationsTableViewController.swift in Sources */,
 				C95B59D01D5E7EC30072DEA3 /* PlayingViewController.swift in Sources */,
 				C93BCCB31D2C4F3A00A96BCF /* ViewController.swift in Sources */,
+				C9C9D97A1D66D45200561532 /* SettingsViewController.swift in Sources */,
 				C93BCCB11D2C4F3A00A96BCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
